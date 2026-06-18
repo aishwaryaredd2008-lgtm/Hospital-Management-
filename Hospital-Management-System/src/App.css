@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    to right,
+    #dff4ff,
+    #58b6ff
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  width: 800px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+input {
+  width: 220px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #4db8ff;
+  border-radius: 5px;
+}
+
+button {
+  background: #1565d8;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.tabs {
+  margin-top: 20px;
+}
+
+.appointment {
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
